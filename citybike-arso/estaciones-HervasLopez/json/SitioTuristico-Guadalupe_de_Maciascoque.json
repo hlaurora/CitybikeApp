@@ -1,0 +1,26 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://schema.org/Place",
+        "http://schema.org/AdministrativeArea"
+    ],
+    "enlaces_externos": [
+        "https://web.archive.org/web/20120630043218/https:/www.murcia.es/pedanias/guadalupe_default_.asp",
+        "http://www.ucam.edu/",
+        "http://www.regmurcia.com/servlet/s.Sl%3Fsit=a,278"
+    ],
+    "id": "Guadalupe_de_Maciascoque",
+    "imagen": "250",
+    "nombre": "Guadalupe de Maciascoque",
+    "resumen": "Guadalupe es una pedanía del municipio de Murcia, en la Región de Murcia (España), que cuenta con 7.160 habitantes (INE 2019).​ Su extensión territorial es de 6,02 km². El núcleo principal esta cruzado en toda su extensión, de este a oeste, por el paralelo 38°00'00\" latitud Norte, y está ubicado a unos 3,5 km al NO de la ciudad de Murcia, sobre una altitud media de 57 m.s.n.m. Guadalupe de Maciascoque es uno de los lugares más históricos del antiguo concejo y huerta de Murcia. Tuvo sus orígenes en el siglo XV y desde 1561 constituyó el señorío de Maciascoque, manteniéndose así hasta la abolición de los señoríos españoles entre 1811 y 1837. Durante el Trienio Liberal de 1820-1823 tuvo ayuntamiento propio, capitalizado por la villa constitucional de Guadalupe.",
+    "url": "http://es.wikipedia.org/wiki/Guadalupe_de_Maciascoque"
+}

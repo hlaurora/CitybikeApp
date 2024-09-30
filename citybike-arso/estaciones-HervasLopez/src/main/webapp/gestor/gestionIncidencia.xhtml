@@ -1,0 +1,95 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	template="/WEB-INF/template/template-gestor.xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:param name="estilo2" value="current" />
+	<ui:define name="title">
+        Ver incidencias
+    </ui:define>
+	<f:metadata>
+		<f:viewParam name="id" value="#{gestorIncidenciasWeb.idIncidencia}" />
+		<f:viewAction action="#{gestorIncidenciasWeb.load()}" />
+	</f:metadata>
+	<ui:define name="content">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<strong><p>${text['introGestionar']}</p></strong>
+					<h:form>
+						<h:panelGrid columns="3" styleClass="ui-panelgrid-blank">
+							<h:outputText value="ID: #{gestorIncidenciasWeb.idIncidencia}" />
+							<h:outputText
+								value="#{text['idBici']}: #{gestorIncidenciasWeb.incidencia.bicicleta}" />
+							<h:outputText
+								value="Descripción: #{gestorIncidenciasWeb.incidencia.descripcion}" />
+
+						</h:panelGrid>
+						<h:panelGrid columns="1" styleClass="ui-panelgrid-blank">
+							<!-- Incidencia Pendiente: Se puede asignar o cancelar -->
+							<h:form
+								rendered="#{gestorIncidenciasWeb.incidencia.estado == 'PENDIENTE'}">
+								<h:outputLabel value="#{text['cancelarTexto']}"
+									style="font-weight: bold;" />
+								<h:panelGrid columns="2">
+									<h:outputText value="#{text['motivo']}"></h:outputText>
+									<h:inputText id="motivo"
+										value="#{gestorIncidenciasWeb.motivoCierre}" />
+									<h:commandButton value="#{text['cancelar']}"
+										actionListener="#{gestorIncidenciasWeb.cancelarIncidencia()}">
+									</h:commandButton>
+								</h:panelGrid>
+								<h:outputLabel value="#{text['asignarTexto']}"
+									style="font-weight: bold;" />
+								<h:panelGrid columns="2">
+									<h:outputText value="#{text['operario']}"></h:outputText>
+									<h:inputText id="operario"
+										value="#{gestorIncidenciasWeb.operario}" />
+									<h:commandButton value="#{text['asignar']}"
+										actionListener="#{gestorIncidenciasWeb.asignarIncidencia()}">
+									</h:commandButton>
+								</h:panelGrid>
+
+							</h:form>
+
+							<!-- Incidencia Asignada: Se puede resolver -->
+
+							<h:form
+								rendered="#{gestorIncidenciasWeb.incidencia.estado == 'ASIGNADA'}">
+
+								<h:outputText value="#{text['motivo']}"></h:outputText>
+								<h:inputText id="motivo"
+									value="#{gestorIncidenciasWeb.motivoCierre}" />
+								<h:outputText value="#{text['reparada']}"></h:outputText>
+								<div>
+									<h:panelGrid columns="2">
+
+										<p:selectBooleanCheckbox
+											value="#{gestorIncidenciasWeb.reparada}" />
+										<h:commandButton value="#{'RESOLVER'}"
+											actionListener="#{gestorIncidenciasWeb.resolverIncidencia()}">
+										</h:commandButton>
+									</h:panelGrid>
+
+								</div>
+
+							</h:form>
+						</h:panelGrid>
+
+						<h:panelGrid columns="2">
+
+							<h:commandButton value="#{text['volver']}"
+								actionListener="#{gestorIncidenciasWeb.volver()}">
+							</h:commandButton>
+						</h:panelGrid>
+
+					</h:form>
+
+
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

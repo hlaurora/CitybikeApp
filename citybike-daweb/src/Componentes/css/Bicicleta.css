@@ -1,0 +1,66 @@
+.elemento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 200px;
+}
+
+.elemento-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.elemento h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.elemento p {
+    margin: 5px 0;
+}
+
+
+.elemento-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.elemento-button {
+    padding: 10px 20px;
+    color: black;
+    border-width: 0.5pt;
+    width: 140px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: #b3d89c;
+    text-align: center;
+}
+
+.elemento-button:hover {
+    background-color: #77a6b6;
+}
+
+
+.bicicleta-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-width {
+    width: 150px; 
+    margin-right: 10px; 
+}
+
+.input-width {
+    flex: 1; 
+}

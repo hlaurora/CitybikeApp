@@ -1,0 +1,55 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	template="/WEB-INF/template/template-cliente.xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:param name="estilo2" value="current" />
+	<ui:define name="title">
+        Buscador de bicicletas
+    </ui:define>
+
+	<ui:define name="content">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<h:form>
+						<h:panelGrid columns="2">
+							<h:outputText value="#{text['latitud']}"></h:outputText>
+							<h:inputText id="latitud" value="#{buscadorBicisWeb.latitud}" />
+							<h:outputText value="#{text['longitud']}"></h:outputText>
+							<h:inputText id="longitud" value="#{buscadorBicisWeb.longitud}" />
+
+						</h:panelGrid>
+						<h:commandButton value="#{text['buscar']}"
+							actionListener="#{buscadorBicisWeb.buscarBicis()}"
+							update="messages">
+						</h:commandButton>
+						<p:messages id="messages" showDetail="true" closable="true" />
+					</h:form>
+
+					<!-- Tabla con bicicletas encontradas -->
+					<h:form id="bicicletas">
+						<p:dataTable var="bici" value="#{buscadorBicisWeb.getBicis()}"
+							rows="5" paginator="true"
+							rowsPerPageTemplate="5,10,{ShowAll|'All'}">
+							<p:column headerText="ID">
+								<h:outputText value="#{bici.id}" />
+							</p:column>
+							<p:column headerText="#{text['modelo']}">
+								<h:outputText value="#{bici.modelo}" />
+							</p:column>
+							<p:column headerText="#{text['estacionActual']}">
+								<h:outputText value="#{bici.idEstacionActual}" />
+							</p:column>
+							<p:column headerText="#{text['disponible']}">
+								<h:outputText value="#{bici.disponible}" />
+							</p:column>
+						</p:dataTable>
+					</h:form>
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

@@ -1,0 +1,29 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Place",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://schema.org/AdministrativeArea",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace"
+    ],
+    "enlaces_externos": [
+        "https://web.archive.org/web/20170914072224/http:/elportalico.com/",
+        "http://clubatletismosanblas.es/",
+        "http://www.elchedelasierra.es",
+        "http://www.elchedelasierra.net",
+        "http://www.elchedelasierra.es/index.php%3Foption=com_content&view=article&id=67&Itemid=38",
+        "http://galaxiarural.blogspot.com"
+    ],
+    "id": "Elche_de_la_Sierra",
+    "imagen": "\"Elche de la Sierra.JPG\"",
+    "nombre": "Elche de la Sierra",
+    "resumen": "Elche de la Sierra es un municipio español situado al sureste de la península ibérica, en la provincia de Albacete, dentro de la comunidad autónoma de Castilla-La Mancha. Se encuentra en el límite oriental de la antigua Sierra de Alcaraz y en la actual mancomunidad de servicios de la sierra del Segura, a 101 km de la capital provincial. En 2019 contaba con 3.585 habitantes según los datos oficiales del INE. Comprende las pedanías de Fuente del Taif, Horno Ciego, Peñarrubia, Peralta, Vicorto, Villares, Derramadero y Puerto del Pino.",
+    "url": "http://es.wikipedia.org/wiki/Elche_de_la_Sierra"
+}

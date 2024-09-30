@@ -1,0 +1,26 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://schema.org/AdministrativeArea",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://dbpedia.org/ontology/Region"
+    ],
+    "enlaces_externos": [
+        "http://www.letur.es",
+        "http://www.sierradelsegura.com",
+        "http://www.turismoletur.es"
+    ],
+    "id": "Letur",
+    "imagen": "",
+    "nombre": "Letur",
+    "resumen": "Letur es un municipio español situado al sureste de la península ibérica, en la provincia de Albacete, dentro de la comunidad autónoma de Castilla-La Mancha. Pertenece al partido judicial de Hellín y está enclavado en la sierra de Segura. Por el sur limita con la Región de Murcia (municipio de Moratalla). En 2019 contaba con 919 habitantes censados, según los datos oficiales del INE.",
+    "url": "http://es.wikipedia.org/wiki/Letur"
+}

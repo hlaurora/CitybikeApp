@@ -1,0 +1,46 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	template="/WEB-INF/template/template-gestor.xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:param name="estilo2" value="current" />
+	<ui:define name="title">
+        Ver incidencias
+    </ui:define>
+
+	<ui:define name="content">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<!-- Tabla con incidencias abiertas -->
+					<h:form id="incidencias">
+
+						<p:dataTable var="incidencia"
+							value="#{listadoIncidenciasWeb.incidencias}" rows="5"
+							paginator="true" rowsPerPageTemplate="5,10,{ShowAll|'All'}"
+							selectionMode="single"
+							selection="#{listadoIncidenciasWeb.incidenciaSeleccionada}"
+							rowKey="#{incidencia.id}" widgetVar="incidenciasTable">
+							<p:column headerText="ID">
+								<h:outputText value="#{incidencia.id}" />
+							</p:column>
+							<p:column headerText="#{text['estado']}">
+								<h:outputText value="#{incidencia.estado}" />
+							</p:column>
+							<p:column headerText="#{text['fechaCreacion']}">
+								<h:outputText value="#{incidencia.fechaCreacion}" />
+							</p:column>
+							<p:column headerText="#{text['idBici']}">
+								<h:outputText value="#{incidencia.bicicleta}" />
+							</p:column>
+							<p:ajax event="rowSelect"
+								listener="#{listadoIncidenciasWeb.filaSeleccionada}" />
+						</p:dataTable>
+					</h:form>
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

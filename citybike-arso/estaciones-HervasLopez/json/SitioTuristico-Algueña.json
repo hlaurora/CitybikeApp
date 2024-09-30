@@ -1,0 +1,29 @@
+
+{
+    "categorias": [
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://schema.org/AdministrativeArea",
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://dbpedia.org/ontology/Place",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/AdministrativeRegion"
+    ],
+    "enlaces_externos": [
+        "http://www.dip-alicante.es/documentacion",
+        "http://www.alguenya.es/",
+        "https://web.archive.org/web/20060630071050/http:/www.dip-alicante.es/documentacion/local/menulocal.asp%3Fcodigo=03013",
+        "https://web.archive.org/web/20060520001843/http:/www.just.gva.es/pls/civisc/p_civis.municipios%3Fcodcat=03013",
+        "https://web.archive.org/web/20060320082515/http:/www.revista-perito.com/Alguerodri.htm",
+        "https://web.archive.org/web/20060509135506/http:/www.laisladeinterior.com/alguena/index.asp"
+    ],
+    "id": "Algueña",
+    "imagen": "\"Alguenya-4133.jpg\"",
+    "nombre": "Algueña",
+    "resumen": "Algueña (en valenciano, l'Alguenya; la denominación oficial es en español) es un municipio de la Comunidad Valenciana, España. Situado en el suroeste de la provincia de Alicante, en la comarca del Vinalopó Medio. Cuenta con 1.341 habitantes (INE 2018).",
+    "url": "http://es.wikipedia.org/wiki/Algueña"
+}

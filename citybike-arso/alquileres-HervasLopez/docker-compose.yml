@@ -1,0 +1,27 @@
+version: "3.7"
+
+services:
+  alquileres:
+    build: .
+    ports:
+      - "8080:8080"
+
+    environment:
+      DATABASE_CONNECTION_STRING: jdbc:mysql://user:password@mysql:3306/citybike
+      
+    depends_on:
+      - mysql  
+     
+  mysql:
+    image: mysql:8
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: practica
+      MYSQL_DATABASE: citybike
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+
+
+

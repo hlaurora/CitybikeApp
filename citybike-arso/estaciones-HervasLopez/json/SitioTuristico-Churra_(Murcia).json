@@ -1,0 +1,24 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://schema.org/Place",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://dbpedia.org/ontology/Place",
+        "http://schema.org/AdministrativeArea",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/Municipality"
+    ],
+    "enlaces_externos": [
+        "https://web.archive.org/web/20160304125207/http:/servicios.laverdad.es/servicios/web/churra03/"
+    ],
+    "id": "Churra_(Murcia)",
+    "imagen": "250",
+    "nombre": "Churra (Murcia)",
+    "resumen": "Churra es una pedanía perteneciente al municipio de Murcia (España). Cuenta con una población de 8334 habitantes (INE de 2019) y una extensión de 5,6 km². Su distancia al centro de Murcia es de 3,5 kilómetros y se encuentra a una altitud de 57 metros sobre el nivel del mar. En territorio de la pedanía se encuentra el centro comercial de Ikea Murcia, así como los centros Thader y Nueva Condomina, con el estadio del mismo nombre.",
+    "url": "http://es.wikipedia.org/wiki/Churra_(Murcia)"
+}

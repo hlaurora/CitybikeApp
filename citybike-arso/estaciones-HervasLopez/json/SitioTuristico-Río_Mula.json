@@ -1,0 +1,19 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/BodyOfWater",
+        "http://dbpedia.org/ontology/Place",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/NaturalPlace",
+        "http://schema.org/Place",
+        "http://schema.org/BodyOfWater",
+        "http://dbpedia.org/ontology/Location"
+    ],
+    "enlaces_externos": [
+    ],
+    "id": "Río_Mula",
+    "imagen": "",
+    "nombre": "Río Mula",
+    "resumen": "El Mula es un río de la Región de Murcia (España), afluente del río Segura por su margen derecha. Nace en las llamadas Fuentes de Mula, en la zona serrana del término municipal de Bullas, tras el que recibe varios arroyos y ramblas que bajan de las sierras de Burete, Lavia, Ceperos y El Charco. Tras discurrir por el municipio que le da nombre, desemboca en el Segura entre los municipios de Alguazas y Las Torres de Cotillas, tras un recorrido de 64 kilómetros.",
+    "url": "http://es.wikipedia.org/wiki/Río_Mula"
+}

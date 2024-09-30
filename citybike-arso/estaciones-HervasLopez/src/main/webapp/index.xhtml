@@ -1,0 +1,35 @@
+<ui:composition template="/WEB-INF/template/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:param name="estilo1" value="current" />
+
+	<ui:define name="title">
+		Inicio de sesión
+	</ui:define>
+	<ui:define name="content">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<h:form>
+						<h:panelGrid columns="2">
+							<h:outputText value="#{text['usuario']}"></h:outputText>
+							<h:inputText id="username" value="#{inicioSesionWeb.username}" />
+							<h:outputText value="#{text['contrasena']}"></h:outputText>
+							<h:inputSecret id="clave" value="#{inicioSesionWeb.clave}" />
+
+						</h:panelGrid>
+						<h:commandButton value="#{text['iniciarSesion']}"
+							actionListener="#{inicioSesionWeb.login()}" update="messages">
+						</h:commandButton>
+						<p:messages id="messages" showDetail="true" closable="true" />
+					</h:form>
+
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

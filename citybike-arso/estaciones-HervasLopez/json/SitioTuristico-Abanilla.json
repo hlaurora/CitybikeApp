@@ -1,0 +1,27 @@
+
+{
+    "categorias": [
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/Location",
+        "http://schema.org/AdministrativeArea",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://www.w3.org/2002/07/owl#Thing"
+    ],
+    "enlaces_externos": [
+        "http://www.corosydanzasabanilla.com",
+        "http://www.abanilla.es/",
+        "http://www.abanilla.es",
+        "http://www.telecolor.tv/mapa.html"
+    ],
+    "id": "Abanilla",
+    "imagen": "\"Abanilla.jpg\"",
+    "nombre": "Abanilla",
+    "resumen": "Abanilla es una localidad y municipio español perteneciente a la Región de Murcia, situado en la comarca Oriental, en el límite con la Comunidad Valenciana (linda con la provincia de Alicante). Tiene una superficie de 235,62 km² y cuenta con una población de 6127 habitantes (INE, 2019).​",
+    "url": "http://es.wikipedia.org/wiki/Abanilla"
+}

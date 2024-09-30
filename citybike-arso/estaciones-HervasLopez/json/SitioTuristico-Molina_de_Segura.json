@@ -1,0 +1,25 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://schema.org/AdministrativeArea",
+        "http://www.wikidata.org/entity/Q3455524"
+    ],
+    "enlaces_externos": [
+        "http://www.molinadesegura.es/",
+        "http://tierra.rediris.es/merge/Molina/"
+    ],
+    "id": "Molina_de_Segura",
+    "imagen": "",
+    "nombre": "Molina de Segura",
+    "resumen": "Molina de Segura es una ciudad y municipio español perteneciente a la Región de Murcia, situada en la comarca natural de la Vega Media del Segura, de la que es considerada capital, siendo sede del partido judicial de su nombre. Su término municipal tiene una extensión de 169,5 km². Es el cuarto municipio en población de la Región de Murcia, con 71 890 habitantes (INE, 2019),​ después de Murcia, Cartagena y Lorca. Del total de su población, aproximadamente un 65 % residen en el núcleo urbano, repartiéndose el resto entre 14 pedanías, sobre todo en Romeral, Ribera de Molina y El Llano. Forma parte del área metropolitana de Murcia.",
+    "url": "http://es.wikipedia.org/wiki/Molina_de_Segura"
+}

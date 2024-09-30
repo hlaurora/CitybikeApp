@@ -1,0 +1,25 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/Place",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://schema.org/AdministrativeArea",
+        "http://dbpedia.org/ontology/Location"
+    ],
+    "enlaces_externos": [
+        "http://www.ign.es/imgmtn50/A1/508671954nnn.pdf",
+        "https://web.archive.org/web/20091208073335/http:/perso.wanadoo.es/la-abejuela/favorite.html"
+    ],
+    "id": "Abejuela_(Albacete)",
+    "imagen": "",
+    "nombre": "Abejuela (Albacete)",
+    "resumen": "Abejuela es una pequeña aldea española perteneciente al municipio de Letur, en la provincia de Albacete, dentro de la comunidad autónoma de Castilla-La Mancha. Está situada al oeste de la cabecera municipal, cerca de los límites del municipio de Férez, atravesada por el arroyo de Abejuela. Es accesible por una pista local (AB-36) que sale de la carretera de Elche de la Sierra (CM-3217), a la altura del paraje de Las Cañadas.",
+    "url": "http://es.wikipedia.org/wiki/Abejuela_(Albacete)"
+}

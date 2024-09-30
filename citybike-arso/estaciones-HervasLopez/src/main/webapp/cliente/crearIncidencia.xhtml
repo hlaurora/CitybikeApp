@@ -1,0 +1,38 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	template="/WEB-INF/template/template-cliente.xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<ui:param name="estilo3" value="current" />
+
+	<ui:define name="title">
+        Crear una incidencia
+    </ui:define>
+
+	<ui:define name="content">
+		<div class="row">
+			<div class="col-12">
+				<div class="content">
+					<h:form>
+						<h:panelGrid columns="2">
+							<h:outputText value="#{text['idBici']}"></h:outputText>
+							<h:inputText id="latitud" value="#{crearIncidenciaWeb.idBici}" />
+							<h:outputText value="#{text['descripcion']}"></h:outputText>
+							<h:inputText id="longitud"
+								value="#{crearIncidenciaWeb.descripcion}" />
+
+
+						</h:panelGrid>
+						<h:commandButton value="#{text['crear']}"
+							actionListener="#{crearIncidenciaWeb.crearIncidencia()}"
+							update="messages">
+						</h:commandButton>
+						<p:messages id="messages" showDetail="true" closable="true" />
+					</h:form>
+				</div>
+			</div>
+		</div>
+	</ui:define>
+</ui:composition>

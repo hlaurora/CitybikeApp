@@ -1,0 +1,29 @@
+
+{
+    "categorias": [
+        "http://dbpedia.org/ontology/GovernmentalAdministrativeRegion",
+        "http://www.wikidata.org/entity/Q3455524",
+        "http://schema.org/Place",
+        "http://dbpedia.org/ontology/Region",
+        "http://dbpedia.org/ontology/PopulatedPlace",
+        "http://schema.org/AdministrativeArea",
+        "http://www.w3.org/2002/07/owl#Thing",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "http://dbpedia.org/ontology/Municipality",
+        "http://dbpedia.org/ontology/Location",
+        "http://dbpedia.org/ontology/Place"
+    ],
+    "enlaces_externos": [
+        "http://www.abanilla.es",
+        "http://carta-natal.es/ciudades.php%3Fiso=ES&div=14_MU&pag=25%7C",
+        "http://www.regmurcia.com/servlet/s.Sl%3Fsit=a,256%7C",
+        "http://www.abanillavirtual.com/pedanias/434-Macisvenda%7C",
+        "http://www.regmurcia.com/servlet/s.Sl%3Fsit=a%2C256%7C",
+        "https://conecta-3.es"
+    ],
+    "id": "Macisvenda",
+    "imagen": "",
+    "nombre": "Macisvenda",
+    "resumen": "Macisvenda es una pedanía perteneciente al municipio de Abanilla en la Región de Murcia, España. Se encuentra situada en el nordeste de la Región de Murcia, en el centro-norte del municipio de Abanilla, y a tan sólo 5 km de la provincia de Alicante. El pueblo se localiza sobre una pequeña superficie aplanada que se continúa por Alicante con la depresión de los Hondones (de los Frailes y de las Nieves) bajo la Sierra de El Cantón (927 m) y por encima de lo que es la cuenca neógena de Abanilla-Fortuna, de la que se disfrutan increíbles vistas desde los barrios situados sobre el desnivel que rompe esta llanura. Con una superficie de 11,23 km²​ es una de las pedanías más grandes de Abanilla. Se encuentra situada a 10 km del centro urbano de Abanilla y es un cruce de caminos hacia Algueña, El Cantón, Hondón de los Frailes y Hondón de las Nieves.En la antigüedad, fue frontera entre el Reino de Aragón y el Reino de Castilla.",
+    "url": "http://es.wikipedia.org/wiki/Macisvenda"
+}

@@ -1,0 +1,139 @@
+.listado{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,#d0efb1, #b3d89c, #9dc3c2, #77a6b6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-nueva{
+    font-size: large;
+    padding: 10px 20px;
+    color: black;
+    border-width: 0.5pt;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.button-nueva:hover {
+    background-color: #77a6b6;
+}
+
+.titulo{
+    display: flex;
+    column-gap: 40px;
+}
+
+.estacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 160px;
+}
+
+.estacion-info h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.estacion p {
+    margin: 5px 0;
+}
+
+.estacion-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.estacion-button {
+    padding: 10px 20px;
+    color: black;
+    border-width: 0.5pt;
+    width: 130px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    background-color: #b3d89c;
+    text-align: center;
+}
+
+.estacion-button:hover {
+    background-color: #77a6b6;
+}
+
+.estacion-formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-width {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.input-width {
+    flex: 1;
+}
+
+.listado {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #d0efb1, #b3d89c, #9dc3c2, #77a6b6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-nueva {
+    font-size: large;
+    padding: 10px 20px;
+    color: black;
+    border-width: 0.5pt;
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.button-nueva:hover {
+    background-color: #77a6b6;
+}
+
+.button-filtros {
+    font-size: large;
+    padding: 10px 20px;
+    color: black;
+    border-width: 0.5pt;
+    width: 120px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.button-filtros:hover {
+    background-color: #77a6b6;
+}
+
+
+.titulo {
+    display: flex;
+    column-gap: 40px;
+}
