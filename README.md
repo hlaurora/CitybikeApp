@@ -2,6 +2,9 @@
 
 Proyecto desarrollado para las asignaturas de Aplicaciones Distribuidas(AADD), Arquitectura del Software(ArSo) y Desarrollo de Aplicaciones Web(DAWEB), curso 2023-2024. La aplicación gestiona un servicio de préstamo de bicicletas en la ciudad. La web permite dar de alta estaciones de aparcamiento y bicicletas, consultar la información relativa a las mismas, gestionar los alquileres y reservas de las bicicletas. 
 
+![image](https://github.com/user-attachments/assets/012bf0c5-d60a-4e3c-953d-5fe984473bd2)
+
+
 **Despliegue**
 
 cd al directorio pasarela donde está el docker compose y ejecutar `docker-compose up` 
@@ -48,6 +51,9 @@ funcionalidad.
 
 
 # Funcionalidad implementada
+
+![image](https://github.com/user-attachments/assets/4b3b7047-01d7-4bc6-a4ec-ab66bf3b2aaa)
+
 
 **Gestor**
 
